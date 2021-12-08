@@ -10,7 +10,7 @@
 		00E356F31AD99517003FC87E /* WATTWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WATTWalletTests.m */; };
 		04A1326CB3FF4DE2B578EECB /* SFUIDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB105FBBF8714E4F9A562562 /* SFUIDisplay-Regular.ttf */; };
 		05DE5037A3C940F9BB7DE465 /* SFUIDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F835771FCB94CE9A12105B1 /* SFUIDisplay-Medium.ttf */; };
-		08AD04AD341F695A068A15BF /* libPods-EscobarCash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D12D24221749534431E056F /* libPods-EscobarCash.a */; };
+		08AD04AD341F695A068A15BF /* libPods-WATTWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D12D24221749534431E056F /* libPods-WATTWallet.a */; };
 		128370E2E5254A42B5AC3B8D /* SFUIDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C46E35DAEB1844D7843F2EFF /* SFUIDisplay-Heavy.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -30,7 +30,7 @@
 		D6A9D768A87E433BA9D0F072 /* SFUIDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0276E1081B1C497799472311 /* SFUIDisplay-Light.ttf */; };
 		DEFF9A3D243D42EB8FD008B2 /* SFUIDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7243AF2651A14FF2A74A1FCD /* SFUIDisplay-Ultralight.ttf */; };
 		EC62DDD2F37645EF9352DE2E /* SFUIDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB241828443A4EAFBB2D1645 /* SFUIDisplay-Semibold.ttf */; };
-		EEA1BBA4FB4897BB47A9219F /* libPods-EscobarCash-WATTWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8AB8947A0147025F41F68 /* libPods-EscobarCash-WATTWalletTests.a */; };
+		EEA1BBA4FB4897BB47A9219F /* libPods-WATTWallet-WATTWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8AB8947A0147025F41F68 /* libPods-WATTWallet-WATTWalletTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +39,12 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = EscobarCash;
+			remoteInfo = WATTWallet;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A8AB8947A0147025F41F68 /* libPods-EscobarCash-WATTWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EscobarCash-WATTWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A8AB8947A0147025F41F68 /* libPods-WATTWallet-WATTWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WATTWallet-WATTWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356EE1AD99517003FC87E /* WATTWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WATTWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* WATTWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WATTWalletTests.m; sourceTree = "<group>"; };
@@ -54,15 +54,15 @@
 		0BEC275ABF1D413B9AE7DAD8 /* SFUIDisplay-Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Bold.woff"; path = "../assets/fonts/SFUIDisplay-Bold.woff"; sourceTree = "<group>"; };
 		0C031151FBE7413BA88E05DB /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		0FB9CAC7C83C418BB69B725D /* SFUIDisplay-Medium.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Medium.woff"; path = "../assets/fonts/SFUIDisplay-Medium.woff"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* EscobarCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EscobarCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EscobarCash/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EscobarCash/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EscobarCash/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EscobarCash/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EscobarCash/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* WATTWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WATTWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WATTWallet/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = WATTWallet/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WATTWallet/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WATTWallet/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WATTWallet/main.m; sourceTree = "<group>"; };
 		185C081858F44576BF1076D5 /* SFUIText-Heavy.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Heavy.woff2"; path = "../assets/fonts/SFUIText-Heavy.woff2"; sourceTree = "<group>"; };
 		1937223D4F3541E7A5EFE2CB /* SFUIDisplay-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Bold.ttf"; path = "../assets/fonts/SFUIDisplay-Bold.ttf"; sourceTree = "<group>"; };
-		1D12D24221749534431E056F /* libPods-EscobarCash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EscobarCash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D12D24221749534431E056F /* libPods-WATTWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WATTWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D22B99E00F841478432F7E4 /* AtypText-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AtypText-Light.ttf"; path = "../assets/fonts/AtypText-Light.ttf"; sourceTree = "<group>"; };
 		1DCB94F20A184669BF04C347 /* AtypText-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AtypText-Regular.ttf"; path = "../assets/fonts/AtypText-Regular.ttf"; sourceTree = "<group>"; };
 		1FD778E9107346148876C8D6 /* SFUIDisplay-Thin.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Thin.woff"; path = "../assets/fonts/SFUIDisplay-Thin.woff"; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		2DDD21AA5DE148178344442E /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		3B37F325E6FC4FD8A379FAEF /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		40ADC2B0B4DE4F1F96821784 /* AtypText-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AtypText-Semibold.ttf"; path = "../assets/fonts/AtypText-Semibold.ttf"; sourceTree = "<group>"; };
-		4457B569B5B3D6C405015E8B /* Pods-EscobarCash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscobarCash.debug.xcconfig"; path = "Target Support Files/Pods-EscobarCash/Pods-EscobarCash.debug.xcconfig"; sourceTree = "<group>"; };
+		4457B569B5B3D6C405015E8B /* Pods-WATTWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WATTWallet.debug.xcconfig"; path = "Target Support Files/Pods-WATTWallet/Pods-WATTWallet.debug.xcconfig"; sourceTree = "<group>"; };
 		4797165C20B44BDC9C4F6C50 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		47A5C6F4E8AB4D758C6DD699 /* SFUIDisplay-Heavy.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Heavy.woff2"; path = "../assets/fonts/SFUIDisplay-Heavy.woff2"; sourceTree = "<group>"; };
 		4817DDE4C702494B9A609328 /* SFUIDisplay-Ultralight.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Ultralight.woff"; path = "../assets/fonts/SFUIDisplay-Ultralight.woff"; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		7D66CD9481EF408CBB1A16B1 /* SFUIDisplay-Black.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Black.woff2"; path = "../assets/fonts/SFUIDisplay-Black.woff2"; sourceTree = "<group>"; };
 		7F0847FC340241FEAE775B17 /* SFUIText-Heavy.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Heavy.woff"; path = "../assets/fonts/SFUIText-Heavy.woff"; sourceTree = "<group>"; };
 		7FB25CBAB23B478B9FE76306 /* SFUIText-Light.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Light.woff2"; path = "../assets/fonts/SFUIText-Light.woff2"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EscobarCash/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WATTWallet/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845DF9F13ED34EEDBDBE9E96 /* SFUIText-Medium.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Medium.woff2"; path = "../assets/fonts/SFUIText-Medium.woff2"; sourceTree = "<group>"; };
 		8503B73237E847F0A47F2A4A /* SFUIDisplay-Black.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Black.woff"; path = "../assets/fonts/SFUIDisplay-Black.woff"; sourceTree = "<group>"; };
 		8D87515737BC40F7B6D633B9 /* SFUIText-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Heavy.ttf"; path = "../assets/fonts/SFUIText-Heavy.ttf"; sourceTree = "<group>"; };
@@ -108,19 +108,19 @@
 		A3ADA1914BD4428BB791E320 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		A48597BC8C174EEAA7DB6BF2 /* SFUIDisplay-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Thin.ttf"; path = "../assets/fonts/SFUIDisplay-Thin.ttf"; sourceTree = "<group>"; };
 		A49D251CFE1F4A9486F043C9 /* SFUIDisplay-Light.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Light.woff"; path = "../assets/fonts/SFUIDisplay-Light.woff"; sourceTree = "<group>"; };
-		A5F8D9E410932C21DA9DE8EC /* Pods-EscobarCash-WATTWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscobarCash-WATTWalletTests.release.xcconfig"; path = "Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests.release.xcconfig"; sourceTree = "<group>"; };
-		BA7EC987DBD2DE642CE2F07A /* Pods-EscobarCash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscobarCash.release.xcconfig"; path = "Target Support Files/Pods-EscobarCash/Pods-EscobarCash.release.xcconfig"; sourceTree = "<group>"; };
+		A5F8D9E410932C21DA9DE8EC /* Pods-WATTWallet-WATTWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WATTWallet-WATTWalletTests.release.xcconfig"; path = "Target Support Files/Pods-WATTWallet-WATTWalletTests/Pods-WATTWallet-WATTWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA7EC987DBD2DE642CE2F07A /* Pods-WATTWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WATTWallet.release.xcconfig"; path = "Target Support Files/Pods-WATTWallet/Pods-WATTWallet.release.xcconfig"; sourceTree = "<group>"; };
 		BB105FBBF8714E4F9A562562 /* SFUIDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Regular.ttf"; path = "../assets/fonts/SFUIDisplay-Regular.ttf"; sourceTree = "<group>"; };
 		C3EA903390AD4988BE9318CB /* SFUIDisplay-Bold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Bold.woff2"; path = "../assets/fonts/SFUIDisplay-Bold.woff2"; sourceTree = "<group>"; };
 		C46E35DAEB1844D7843F2EFF /* SFUIDisplay-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Heavy.ttf"; path = "../assets/fonts/SFUIDisplay-Heavy.ttf"; sourceTree = "<group>"; };
 		C8630DBA2BD043E9B2EA1380 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Regular.ttf"; path = "../assets/fonts/SFUIText-Regular.ttf"; sourceTree = "<group>"; };
 		CA67CD0E5F4A4DFE8FE3C48E /* SFUIText-Medium.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Medium.woff"; path = "../assets/fonts/SFUIText-Medium.woff"; sourceTree = "<group>"; };
-		CE8DEA0D26B7FF7F005345C5 /* EscobarCash-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EscobarCash-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE8DEA0D26B7FF7F005345C5 /* WATTWallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WATTWallet-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE8DEA0E26B7FF7F005345C5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		D42B94ED2801493BBCA9EA05 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		D721FD62B06A450CB39DA6EF /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		D9E59DF6E5B146D69953FBB7 /* SFUIDisplay-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Black.ttf"; path = "../assets/fonts/SFUIDisplay-Black.ttf"; sourceTree = "<group>"; };
-		DCC56E2AB86EAB2E99B6F041 /* Pods-EscobarCash-WATTWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscobarCash-WATTWalletTests.debug.xcconfig"; path = "Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC56E2AB86EAB2E99B6F041 /* Pods-WATTWallet-WATTWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WATTWallet-WATTWalletTests.debug.xcconfig"; path = "Target Support Files/Pods-WATTWallet-WATTWalletTests/Pods-WATTWallet-WATTWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF7332DD34FA4D3A92940613 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		E9ED98B5BB6A4FFF9DB12C95 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Medium.ttf"; path = "../assets/fonts/SFUIText-Medium.ttf"; sourceTree = "<group>"; };
 		EA223C644B6747DBADF9C5CF /* SFUIDisplay-Heavy.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Heavy.woff"; path = "../assets/fonts/SFUIDisplay-Heavy.woff"; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA1BBA4FB4897BB47A9219F /* libPods-EscobarCash-WATTWalletTests.a in Frameworks */,
+				EEA1BBA4FB4897BB47A9219F /* libPods-WATTWallet-WATTWalletTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08AD04AD341F695A068A15BF /* libPods-EscobarCash.a in Frameworks */,
+				08AD04AD341F695A068A15BF /* libPods-WATTWallet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +169,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* EscobarCash */ = {
+		13B07FAE1A68108700A75B9A /* WATTWallet */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -179,17 +179,17 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				CE8DEA0E26B7FF7F005345C5 /* File.swift */,
-				CE8DEA0D26B7FF7F005345C5 /* EscobarCash-Bridging-Header.h */,
+				CE8DEA0D26B7FF7F005345C5 /* WATTWallet-Bridging-Header.h */,
 			);
-			name = EscobarCash;
+			name = WATTWallet;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				1D12D24221749534431E056F /* libPods-EscobarCash.a */,
-				00A8AB8947A0147025F41F68 /* libPods-EscobarCash-WATTWalletTests.a */,
+				1D12D24221749534431E056F /* libPods-WATTWallet.a */,
+				00A8AB8947A0147025F41F68 /* libPods-WATTWallet-WATTWalletTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* EscobarCash */,
+				13B07FAE1A68108700A75B9A /* WATTWallet */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* WATTWalletTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -294,7 +294,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* EscobarCash.app */,
+				13B07F961A680F5B00A75B9A /* WATTWallet.app */,
 				00E356EE1AD99517003FC87E /* WATTWalletTests.xctest */,
 			);
 			name = Products;
@@ -303,10 +303,10 @@
 		C01A7A1BFECB42FC5BA53501 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4457B569B5B3D6C405015E8B /* Pods-EscobarCash.debug.xcconfig */,
-				BA7EC987DBD2DE642CE2F07A /* Pods-EscobarCash.release.xcconfig */,
-				DCC56E2AB86EAB2E99B6F041 /* Pods-EscobarCash-WATTWalletTests.debug.xcconfig */,
-				A5F8D9E410932C21DA9DE8EC /* Pods-EscobarCash-WATTWalletTests.release.xcconfig */,
+				4457B569B5B3D6C405015E8B /* Pods-WATTWallet.debug.xcconfig */,
+				BA7EC987DBD2DE642CE2F07A /* Pods-WATTWallet.release.xcconfig */,
+				DCC56E2AB86EAB2E99B6F041 /* Pods-WATTWallet-WATTWalletTests.debug.xcconfig */,
+				A5F8D9E410932C21DA9DE8EC /* Pods-WATTWallet-WATTWalletTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -335,9 +335,9 @@
 			productReference = 00E356EE1AD99517003FC87E /* WATTWalletTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* EscobarCash */ = {
+		13B07F861A680F5B00A75B9A /* WATTWallet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EscobarCash" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WATTWallet" */;
 			buildPhases = (
 				2AC498BBD4373FC0E6A3E047 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -353,9 +353,9 @@
 			);
 			dependencies = (
 			);
-			name = EscobarCash;
-			productName = EscobarCash;
-			productReference = 13B07F961A680F5B00A75B9A /* EscobarCash.app */;
+			name = WATTWallet;
+			productName = WATTWallet;
+			productReference = 13B07F961A680F5B00A75B9A /* WATTWallet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -375,7 +375,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EscobarCash" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WATTWallet" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -388,7 +388,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* EscobarCash */,
+				13B07F861A680F5B00A75B9A /* WATTWallet */,
 				00E356ED1AD99517003FC87E /* WATTWalletTests */,
 			);
 		};
@@ -473,7 +473,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EscobarCash-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WATTWallet-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -486,15 +486,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WATTWallet-WATTWalletTests/Pods-WATTWallet-WATTWalletTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WATTWallet-WATTWalletTests/Pods-WATTWallet-WATTWalletTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WATTWallet-WATTWalletTests/Pods-WATTWallet-WATTWalletTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		997EFD60A28444C12A6626C1 /* [CP] Embed Pods Frameworks */ = {
@@ -503,15 +503,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WATTWallet/Pods-WATTWallet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WATTWallet/Pods-WATTWallet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WATTWallet/Pods-WATTWallet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B2FE35285E0F2C7B941E8C82 /* [CP] Copy Pods Resources */ = {
@@ -520,15 +520,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WATTWallet-WATTWalletTests/Pods-WATTWallet-WATTWalletTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WATTWallet-WATTWalletTests/Pods-WATTWallet-WATTWalletTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WATTWallet-WATTWalletTests/Pods-WATTWallet-WATTWalletTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B56BFD9FA6E3C9288D031304 /* [CP] Check Pods Manifest.lock */ = {
@@ -546,7 +546,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EscobarCash-WATTWalletTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WATTWallet-WATTWalletTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -559,15 +559,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WATTWallet/Pods-WATTWallet-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WATTWallet/Pods-WATTWallet-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WATTWallet/Pods-WATTWallet-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -615,7 +615,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* EscobarCash */;
+			target = 13B07F861A680F5B00A75B9A /* WATTWallet */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -623,7 +623,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCC56E2AB86EAB2E99B6F041 /* Pods-EscobarCash-WATTWalletTests.debug.xcconfig */;
+			baseConfigurationReference = DCC56E2AB86EAB2E99B6F041 /* Pods-WATTWallet-WATTWalletTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -645,13 +645,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.escobarinc.cash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EscobarCash.app/EscobarCash";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WATTWallet.app/WATTWallet";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5F8D9E410932C21DA9DE8EC /* Pods-EscobarCash-WATTWalletTests.release.xcconfig */;
+			baseConfigurationReference = A5F8D9E410932C21DA9DE8EC /* Pods-WATTWallet-WATTWalletTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -670,13 +670,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.escobarinc.cash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EscobarCash.app/EscobarCash";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WATTWallet.app/WATTWallet";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4457B569B5B3D6C405015E8B /* Pods-EscobarCash.debug.xcconfig */;
+			baseConfigurationReference = 4457B569B5B3D6C405015E8B /* Pods-WATTWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -685,7 +685,7 @@
 				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 357NW36NDH;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = EscobarCash/Info.plist;
+				INFOPLIST_FILE = WATTWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -697,9 +697,9 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.escobarinc.cash;
-				PRODUCT_NAME = EscobarCash;
+				PRODUCT_NAME = WATTWallet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "EscobarCash-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "WATTWallet-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -708,7 +708,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA7EC987DBD2DE642CE2F07A /* Pods-EscobarCash.release.xcconfig */;
+			baseConfigurationReference = BA7EC987DBD2DE642CE2F07A /* Pods-WATTWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -716,7 +716,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 357NW36NDH;
-				INFOPLIST_FILE = EscobarCash/Info.plist;
+				INFOPLIST_FILE = WATTWallet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -728,9 +728,9 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.escobarinc.cash;
-				PRODUCT_NAME = EscobarCash;
+				PRODUCT_NAME = WATTWallet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "EscobarCash-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "WATTWallet-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -871,7 +871,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EscobarCash" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WATTWallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -880,7 +880,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EscobarCash" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "WATTWallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
