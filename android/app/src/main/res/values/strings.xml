@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Escobar Cash</string>
+    <string name="app_name">EscobarCash</string>
     <string name="app_bundle_id">crypto.wallet</string>
 </resources>
