@@ -1,0 +1,895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* WATTWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WATTWalletTests.m */; };
+		04A1326CB3FF4DE2B578EECB /* SFUIDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB105FBBF8714E4F9A562562 /* SFUIDisplay-Regular.ttf */; };
+		05DE5037A3C940F9BB7DE465 /* SFUIDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F835771FCB94CE9A12105B1 /* SFUIDisplay-Medium.ttf */; };
+		08AD04AD341F695A068A15BF /* libPods-EscobarCash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D12D24221749534431E056F /* libPods-EscobarCash.a */; };
+		128370E2E5254A42B5AC3B8D /* SFUIDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C46E35DAEB1844D7843F2EFF /* SFUIDisplay-Heavy.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		28AE186C99304274908C591A /* SFUIDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A48597BC8C174EEAA7DB6BF2 /* SFUIDisplay-Thin.ttf */; };
+		30F280D083654085859E2D37 /* SFUIText-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5461D4C2C2BA4E119180D5F4 /* SFUIText-BoldItalic.ttf */; };
+		37FBBD89979D481A9941038D /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8630DBA2BD043E9B2EA1380 /* SFUIText-Regular.ttf */; };
+		558025CA1F88420FBBD66EDB /* SFUIText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70D623C4B2DE4F159E84DAD3 /* SFUIText-Semibold.ttf */; };
+		63F98497BBE24D208DB2C2EA /* SFUIText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 739E3B2BC0AC4C27B9228D14 /* SFUIText-Bold.ttf */; };
+		6D0E063D977148DE91AE9444 /* SFUIText-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D87515737BC40F7B6D633B9 /* SFUIText-Heavy.ttf */; };
+		729D00C6DC544F5B8335442F /* SFUIText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58C2FC9CF3A74D4CBF79612A /* SFUIText-Light.ttf */; };
+		7F64AC2EB3854405AF34DAF2 /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9ED98B5BB6A4FFF9DB12C95 /* SFUIText-Medium.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9B304DDB68D6486480AC9B82 /* SFUIDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1937223D4F3541E7A5EFE2CB /* SFUIDisplay-Bold.ttf */; };
+		C61A0999D683479DB9EE8349 /* SFUIDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9E59DF6E5B146D69953FBB7 /* SFUIDisplay-Black.ttf */; };
+		CE8DEA0F26B7FF7F005345C5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DEA0E26B7FF7F005345C5 /* File.swift */; };
+		D6A9D768A87E433BA9D0F072 /* SFUIDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0276E1081B1C497799472311 /* SFUIDisplay-Light.ttf */; };
+		DEFF9A3D243D42EB8FD008B2 /* SFUIDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7243AF2651A14FF2A74A1FCD /* SFUIDisplay-Ultralight.ttf */; };
+		EC62DDD2F37645EF9352DE2E /* SFUIDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB241828443A4EAFBB2D1645 /* SFUIDisplay-Semibold.ttf */; };
+		EEA1BBA4FB4897BB47A9219F /* libPods-EscobarCash-WATTWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8AB8947A0147025F41F68 /* libPods-EscobarCash-WATTWalletTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = EscobarCash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A8AB8947A0147025F41F68 /* libPods-EscobarCash-WATTWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EscobarCash-WATTWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* WATTWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WATTWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* WATTWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WATTWalletTests.m; sourceTree = "<group>"; };
+		0276E1081B1C497799472311 /* SFUIDisplay-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Light.ttf"; path = "../assets/fonts/SFUIDisplay-Light.ttf"; sourceTree = "<group>"; };
+		043608C564114134B2C0044F /* AtypText-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AtypText-Medium.ttf"; path = "../assets/fonts/AtypText-Medium.ttf"; sourceTree = "<group>"; };
+		07240A4567014D598B7A6A05 /* SFUIText-Regular.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Regular.woff2"; path = "../assets/fonts/SFUIText-Regular.woff2"; sourceTree = "<group>"; };
+		0BEC275ABF1D413B9AE7DAD8 /* SFUIDisplay-Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Bold.woff"; path = "../assets/fonts/SFUIDisplay-Bold.woff"; sourceTree = "<group>"; };
+		0C031151FBE7413BA88E05DB /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		0FB9CAC7C83C418BB69B725D /* SFUIDisplay-Medium.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Medium.woff"; path = "../assets/fonts/SFUIDisplay-Medium.woff"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* EscobarCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EscobarCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EscobarCash/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EscobarCash/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EscobarCash/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EscobarCash/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EscobarCash/main.m; sourceTree = "<group>"; };
+		185C081858F44576BF1076D5 /* SFUIText-Heavy.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Heavy.woff2"; path = "../assets/fonts/SFUIText-Heavy.woff2"; sourceTree = "<group>"; };
+		1937223D4F3541E7A5EFE2CB /* SFUIDisplay-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Bold.ttf"; path = "../assets/fonts/SFUIDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		1D12D24221749534431E056F /* libPods-EscobarCash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EscobarCash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D22B99E00F841478432F7E4 /* AtypText-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AtypText-Light.ttf"; path = "../assets/fonts/AtypText-Light.ttf"; sourceTree = "<group>"; };
+		1DCB94F20A184669BF04C347 /* AtypText-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AtypText-Regular.ttf"; path = "../assets/fonts/AtypText-Regular.ttf"; sourceTree = "<group>"; };
+		1FD778E9107346148876C8D6 /* SFUIDisplay-Thin.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Thin.woff"; path = "../assets/fonts/SFUIDisplay-Thin.woff"; sourceTree = "<group>"; };
+		2C56B92428A4499A8C6FA372 /* SFUIDisplay-Thin.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Thin.woff2"; path = "../assets/fonts/SFUIDisplay-Thin.woff2"; sourceTree = "<group>"; };
+		2D122926A9E74DF89C465171 /* SFUIText-Semibold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Semibold.woff2"; path = "../assets/fonts/SFUIText-Semibold.woff2"; sourceTree = "<group>"; };
+		2DDD21AA5DE148178344442E /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		3B37F325E6FC4FD8A379FAEF /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		40ADC2B0B4DE4F1F96821784 /* AtypText-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AtypText-Semibold.ttf"; path = "../assets/fonts/AtypText-Semibold.ttf"; sourceTree = "<group>"; };
+		4457B569B5B3D6C405015E8B /* Pods-EscobarCash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscobarCash.debug.xcconfig"; path = "Target Support Files/Pods-EscobarCash/Pods-EscobarCash.debug.xcconfig"; sourceTree = "<group>"; };
+		4797165C20B44BDC9C4F6C50 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		47A5C6F4E8AB4D758C6DD699 /* SFUIDisplay-Heavy.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Heavy.woff2"; path = "../assets/fonts/SFUIDisplay-Heavy.woff2"; sourceTree = "<group>"; };
+		4817DDE4C702494B9A609328 /* SFUIDisplay-Ultralight.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Ultralight.woff"; path = "../assets/fonts/SFUIDisplay-Ultralight.woff"; sourceTree = "<group>"; };
+		4D36C76D6865460897FA1029 /* SFUIDisplay-Medium.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Medium.woff2"; path = "../assets/fonts/SFUIDisplay-Medium.woff2"; sourceTree = "<group>"; };
+		4FA1C4D81633465DA5BF6ECB /* SFUIDisplay-Semibold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Semibold.woff2"; path = "../assets/fonts/SFUIDisplay-Semibold.woff2"; sourceTree = "<group>"; };
+		516A5959B1304E28AF111121 /* SFUIText-Light.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Light.woff"; path = "../assets/fonts/SFUIText-Light.woff"; sourceTree = "<group>"; };
+		5461D4C2C2BA4E119180D5F4 /* SFUIText-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-BoldItalic.ttf"; path = "../assets/fonts/SFUIText-BoldItalic.ttf"; sourceTree = "<group>"; };
+		583BCB351B2649D68A9C058B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		58AC1031C6544DACB81DF6B9 /* SFUIText-Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Bold.woff"; path = "../assets/fonts/SFUIText-Bold.woff"; sourceTree = "<group>"; };
+		58C2FC9CF3A74D4CBF79612A /* SFUIText-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Light.ttf"; path = "../assets/fonts/SFUIText-Light.ttf"; sourceTree = "<group>"; };
+		5CAD07B167AB4044B535CA8F /* SFUIDisplay-Regular.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Regular.woff"; path = "../assets/fonts/SFUIDisplay-Regular.woff"; sourceTree = "<group>"; };
+		5F835771FCB94CE9A12105B1 /* SFUIDisplay-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Medium.ttf"; path = "../assets/fonts/SFUIDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		65D82941D2984F98B92FC290 /* SFUIText-Regular.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Regular.woff"; path = "../assets/fonts/SFUIText-Regular.woff"; sourceTree = "<group>"; };
+		70D623C4B2DE4F159E84DAD3 /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Semibold.ttf"; path = "../assets/fonts/SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
+		7243AF2651A14FF2A74A1FCD /* SFUIDisplay-Ultralight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Ultralight.ttf"; path = "../assets/fonts/SFUIDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
+		73310A131BAE4B52B557BBAB /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		73713D0E602E4469A5E1E087 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		739E3B2BC0AC4C27B9228D14 /* SFUIText-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Bold.ttf"; path = "../assets/fonts/SFUIText-Bold.ttf"; sourceTree = "<group>"; };
+		75B925CBBA784A84B44585F2 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		7784C89DDC434FC68EC0A952 /* SFUIDisplay-Regular.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Regular.woff2"; path = "../assets/fonts/SFUIDisplay-Regular.woff2"; sourceTree = "<group>"; };
+		79D39FCC13EC4B479B790504 /* SFUIDisplay-Ultralight.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Ultralight.woff2"; path = "../assets/fonts/SFUIDisplay-Ultralight.woff2"; sourceTree = "<group>"; };
+		7A9A35A8CC5C41E0886EA919 /* SFUIDisplay-Light.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Light.woff2"; path = "../assets/fonts/SFUIDisplay-Light.woff2"; sourceTree = "<group>"; };
+		7BB9BCE7F0C746A1BDF0CEA9 /* SFUIText-Semibold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Semibold.woff"; path = "../assets/fonts/SFUIText-Semibold.woff"; sourceTree = "<group>"; };
+		7D66CD9481EF408CBB1A16B1 /* SFUIDisplay-Black.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Black.woff2"; path = "../assets/fonts/SFUIDisplay-Black.woff2"; sourceTree = "<group>"; };
+		7F0847FC340241FEAE775B17 /* SFUIText-Heavy.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Heavy.woff"; path = "../assets/fonts/SFUIText-Heavy.woff"; sourceTree = "<group>"; };
+		7FB25CBAB23B478B9FE76306 /* SFUIText-Light.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Light.woff2"; path = "../assets/fonts/SFUIText-Light.woff2"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EscobarCash/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845DF9F13ED34EEDBDBE9E96 /* SFUIText-Medium.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Medium.woff2"; path = "../assets/fonts/SFUIText-Medium.woff2"; sourceTree = "<group>"; };
+		8503B73237E847F0A47F2A4A /* SFUIDisplay-Black.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Black.woff"; path = "../assets/fonts/SFUIDisplay-Black.woff"; sourceTree = "<group>"; };
+		8D87515737BC40F7B6D633B9 /* SFUIText-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Heavy.ttf"; path = "../assets/fonts/SFUIText-Heavy.ttf"; sourceTree = "<group>"; };
+		90987668249C46C7B7AF4E0D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		95DA2980EA8348A2AC529C33 /* SFUIText-Bold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Bold.woff2"; path = "../assets/fonts/SFUIText-Bold.woff2"; sourceTree = "<group>"; };
+		A1F3B85413154C51B5B9B6EF /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		A3ADA1914BD4428BB791E320 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		A48597BC8C174EEAA7DB6BF2 /* SFUIDisplay-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Thin.ttf"; path = "../assets/fonts/SFUIDisplay-Thin.ttf"; sourceTree = "<group>"; };
+		A49D251CFE1F4A9486F043C9 /* SFUIDisplay-Light.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Light.woff"; path = "../assets/fonts/SFUIDisplay-Light.woff"; sourceTree = "<group>"; };
+		A5F8D9E410932C21DA9DE8EC /* Pods-EscobarCash-WATTWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscobarCash-WATTWalletTests.release.xcconfig"; path = "Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA7EC987DBD2DE642CE2F07A /* Pods-EscobarCash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscobarCash.release.xcconfig"; path = "Target Support Files/Pods-EscobarCash/Pods-EscobarCash.release.xcconfig"; sourceTree = "<group>"; };
+		BB105FBBF8714E4F9A562562 /* SFUIDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Regular.ttf"; path = "../assets/fonts/SFUIDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		C3EA903390AD4988BE9318CB /* SFUIDisplay-Bold.woff2 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Bold.woff2"; path = "../assets/fonts/SFUIDisplay-Bold.woff2"; sourceTree = "<group>"; };
+		C46E35DAEB1844D7843F2EFF /* SFUIDisplay-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Heavy.ttf"; path = "../assets/fonts/SFUIDisplay-Heavy.ttf"; sourceTree = "<group>"; };
+		C8630DBA2BD043E9B2EA1380 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Regular.ttf"; path = "../assets/fonts/SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		CA67CD0E5F4A4DFE8FE3C48E /* SFUIText-Medium.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Medium.woff"; path = "../assets/fonts/SFUIText-Medium.woff"; sourceTree = "<group>"; };
+		CE8DEA0D26B7FF7F005345C5 /* EscobarCash-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EscobarCash-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE8DEA0E26B7FF7F005345C5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D42B94ED2801493BBCA9EA05 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		D721FD62B06A450CB39DA6EF /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		D9E59DF6E5B146D69953FBB7 /* SFUIDisplay-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Black.ttf"; path = "../assets/fonts/SFUIDisplay-Black.ttf"; sourceTree = "<group>"; };
+		DCC56E2AB86EAB2E99B6F041 /* Pods-EscobarCash-WATTWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EscobarCash-WATTWalletTests.debug.xcconfig"; path = "Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF7332DD34FA4D3A92940613 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		E9ED98B5BB6A4FFF9DB12C95 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Medium.ttf"; path = "../assets/fonts/SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		EA223C644B6747DBADF9C5CF /* SFUIDisplay-Heavy.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Heavy.woff"; path = "../assets/fonts/SFUIDisplay-Heavy.woff"; sourceTree = "<group>"; };
+		EA3BFE49BCAA4127A660FD0F /* SFUIDisplay-Semibold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Semibold.woff"; path = "../assets/fonts/SFUIDisplay-Semibold.woff"; sourceTree = "<group>"; };
+		EB241828443A4EAFBB2D1645 /* SFUIDisplay-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIDisplay-Semibold.ttf"; path = "../assets/fonts/SFUIDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F82E6366DEC947EBACD4F22F /* AtypText-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AtypText-Bold.ttf"; path = "../assets/fonts/AtypText-Bold.ttf"; sourceTree = "<group>"; };
+		FD0A19E14B794FD7B2F79854 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		FE111ADA9BD94A8981E19EDF /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA1BBA4FB4897BB47A9219F /* libPods-EscobarCash-WATTWalletTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AD04AD341F695A068A15BF /* libPods-EscobarCash.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* WATTWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* WATTWalletTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = WATTWalletTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* EscobarCash */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				CE8DEA0E26B7FF7F005345C5 /* File.swift */,
+				CE8DEA0D26B7FF7F005345C5 /* EscobarCash-Bridging-Header.h */,
+			);
+			name = EscobarCash;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				1D12D24221749534431E056F /* libPods-EscobarCash.a */,
+				00A8AB8947A0147025F41F68 /* libPods-EscobarCash-WATTWalletTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D5652B201294E2795AA5A65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD21AA5DE148178344442E /* AntDesign.ttf */,
+				73310A131BAE4B52B557BBAB /* Entypo.ttf */,
+				583BCB351B2649D68A9C058B /* EvilIcons.ttf */,
+				0C031151FBE7413BA88E05DB /* Feather.ttf */,
+				4797165C20B44BDC9C4F6C50 /* FontAwesome.ttf */,
+				90987668249C46C7B7AF4E0D /* FontAwesome5_Brands.ttf */,
+				FD0A19E14B794FD7B2F79854 /* FontAwesome5_Regular.ttf */,
+				FE111ADA9BD94A8981E19EDF /* FontAwesome5_Solid.ttf */,
+				A3ADA1914BD4428BB791E320 /* Fontisto.ttf */,
+				D721FD62B06A450CB39DA6EF /* Foundation.ttf */,
+				73713D0E602E4469A5E1E087 /* Ionicons.ttf */,
+				3B37F325E6FC4FD8A379FAEF /* MaterialCommunityIcons.ttf */,
+				DF7332DD34FA4D3A92940613 /* MaterialIcons.ttf */,
+				D42B94ED2801493BBCA9EA05 /* Octicons.ttf */,
+				75B925CBBA784A84B44585F2 /* SimpleLineIcons.ttf */,
+				A1F3B85413154C51B5B9B6EF /* Zocial.ttf */,
+				F82E6366DEC947EBACD4F22F /* AtypText-Bold.ttf */,
+				1D22B99E00F841478432F7E4 /* AtypText-Light.ttf */,
+				043608C564114134B2C0044F /* AtypText-Medium.ttf */,
+				1DCB94F20A184669BF04C347 /* AtypText-Regular.ttf */,
+				40ADC2B0B4DE4F1F96821784 /* AtypText-Semibold.ttf */,
+				8503B73237E847F0A47F2A4A /* SFUIDisplay-Black.woff */,
+				7D66CD9481EF408CBB1A16B1 /* SFUIDisplay-Black.woff2 */,
+				0BEC275ABF1D413B9AE7DAD8 /* SFUIDisplay-Bold.woff */,
+				C3EA903390AD4988BE9318CB /* SFUIDisplay-Bold.woff2 */,
+				EA223C644B6747DBADF9C5CF /* SFUIDisplay-Heavy.woff */,
+				47A5C6F4E8AB4D758C6DD699 /* SFUIDisplay-Heavy.woff2 */,
+				A49D251CFE1F4A9486F043C9 /* SFUIDisplay-Light.woff */,
+				7A9A35A8CC5C41E0886EA919 /* SFUIDisplay-Light.woff2 */,
+				0FB9CAC7C83C418BB69B725D /* SFUIDisplay-Medium.woff */,
+				4D36C76D6865460897FA1029 /* SFUIDisplay-Medium.woff2 */,
+				5CAD07B167AB4044B535CA8F /* SFUIDisplay-Regular.woff */,
+				7784C89DDC434FC68EC0A952 /* SFUIDisplay-Regular.woff2 */,
+				EA3BFE49BCAA4127A660FD0F /* SFUIDisplay-Semibold.woff */,
+				4FA1C4D81633465DA5BF6ECB /* SFUIDisplay-Semibold.woff2 */,
+				1FD778E9107346148876C8D6 /* SFUIDisplay-Thin.woff */,
+				2C56B92428A4499A8C6FA372 /* SFUIDisplay-Thin.woff2 */,
+				4817DDE4C702494B9A609328 /* SFUIDisplay-Ultralight.woff */,
+				79D39FCC13EC4B479B790504 /* SFUIDisplay-Ultralight.woff2 */,
+				58AC1031C6544DACB81DF6B9 /* SFUIText-Bold.woff */,
+				95DA2980EA8348A2AC529C33 /* SFUIText-Bold.woff2 */,
+				7F0847FC340241FEAE775B17 /* SFUIText-Heavy.woff */,
+				185C081858F44576BF1076D5 /* SFUIText-Heavy.woff2 */,
+				516A5959B1304E28AF111121 /* SFUIText-Light.woff */,
+				7FB25CBAB23B478B9FE76306 /* SFUIText-Light.woff2 */,
+				CA67CD0E5F4A4DFE8FE3C48E /* SFUIText-Medium.woff */,
+				845DF9F13ED34EEDBDBE9E96 /* SFUIText-Medium.woff2 */,
+				65D82941D2984F98B92FC290 /* SFUIText-Regular.woff */,
+				07240A4567014D598B7A6A05 /* SFUIText-Regular.woff2 */,
+				7BB9BCE7F0C746A1BDF0CEA9 /* SFUIText-Semibold.woff */,
+				2D122926A9E74DF89C465171 /* SFUIText-Semibold.woff2 */,
+				D9E59DF6E5B146D69953FBB7 /* SFUIDisplay-Black.ttf */,
+				1937223D4F3541E7A5EFE2CB /* SFUIDisplay-Bold.ttf */,
+				C46E35DAEB1844D7843F2EFF /* SFUIDisplay-Heavy.ttf */,
+				0276E1081B1C497799472311 /* SFUIDisplay-Light.ttf */,
+				5F835771FCB94CE9A12105B1 /* SFUIDisplay-Medium.ttf */,
+				BB105FBBF8714E4F9A562562 /* SFUIDisplay-Regular.ttf */,
+				EB241828443A4EAFBB2D1645 /* SFUIDisplay-Semibold.ttf */,
+				A48597BC8C174EEAA7DB6BF2 /* SFUIDisplay-Thin.ttf */,
+				7243AF2651A14FF2A74A1FCD /* SFUIDisplay-Ultralight.ttf */,
+				739E3B2BC0AC4C27B9228D14 /* SFUIText-Bold.ttf */,
+				5461D4C2C2BA4E119180D5F4 /* SFUIText-BoldItalic.ttf */,
+				8D87515737BC40F7B6D633B9 /* SFUIText-Heavy.ttf */,
+				58C2FC9CF3A74D4CBF79612A /* SFUIText-Light.ttf */,
+				E9ED98B5BB6A4FFF9DB12C95 /* SFUIText-Medium.ttf */,
+				C8630DBA2BD043E9B2EA1380 /* SFUIText-Regular.ttf */,
+				70D623C4B2DE4F159E84DAD3 /* SFUIText-Semibold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* EscobarCash */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* WATTWalletTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				4D5652B201294E2795AA5A65 /* Resources */,
+				C01A7A1BFECB42FC5BA53501 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* EscobarCash.app */,
+				00E356EE1AD99517003FC87E /* WATTWalletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01A7A1BFECB42FC5BA53501 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4457B569B5B3D6C405015E8B /* Pods-EscobarCash.debug.xcconfig */,
+				BA7EC987DBD2DE642CE2F07A /* Pods-EscobarCash.release.xcconfig */,
+				DCC56E2AB86EAB2E99B6F041 /* Pods-EscobarCash-WATTWalletTests.debug.xcconfig */,
+				A5F8D9E410932C21DA9DE8EC /* Pods-EscobarCash-WATTWalletTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* WATTWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WATTWalletTests" */;
+			buildPhases = (
+				B56BFD9FA6E3C9288D031304 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				49AF22BFDEA40EEE6FC01EED /* [CP] Embed Pods Frameworks */,
+				B2FE35285E0F2C7B941E8C82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = WATTWalletTests;
+			productName = WATTWalletTests;
+			productReference = 00E356EE1AD99517003FC87E /* WATTWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* EscobarCash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EscobarCash" */;
+			buildPhases = (
+				2AC498BBD4373FC0E6A3E047 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				997EFD60A28444C12A6626C1 /* [CP] Embed Pods Frameworks */,
+				EDA68900C6760BC088517EB2 /* [CP] Copy Pods Resources */,
+				02D1397F80034C62AACFCBF4 /* Upload source maps to Bugsnag */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EscobarCash;
+			productName = EscobarCash;
+			productReference = 13B07F961A680F5B00A75B9A /* EscobarCash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EscobarCash" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* EscobarCash */,
+				00E356ED1AD99517003FC87E /* WATTWalletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C61A0999D683479DB9EE8349 /* SFUIDisplay-Black.ttf in Resources */,
+				9B304DDB68D6486480AC9B82 /* SFUIDisplay-Bold.ttf in Resources */,
+				128370E2E5254A42B5AC3B8D /* SFUIDisplay-Heavy.ttf in Resources */,
+				D6A9D768A87E433BA9D0F072 /* SFUIDisplay-Light.ttf in Resources */,
+				05DE5037A3C940F9BB7DE465 /* SFUIDisplay-Medium.ttf in Resources */,
+				04A1326CB3FF4DE2B578EECB /* SFUIDisplay-Regular.ttf in Resources */,
+				EC62DDD2F37645EF9352DE2E /* SFUIDisplay-Semibold.ttf in Resources */,
+				28AE186C99304274908C591A /* SFUIDisplay-Thin.ttf in Resources */,
+				DEFF9A3D243D42EB8FD008B2 /* SFUIDisplay-Ultralight.ttf in Resources */,
+				63F98497BBE24D208DB2C2EA /* SFUIText-Bold.ttf in Resources */,
+				30F280D083654085859E2D37 /* SFUIText-BoldItalic.ttf in Resources */,
+				6D0E063D977148DE91AE9444 /* SFUIText-Heavy.ttf in Resources */,
+				729D00C6DC544F5B8335442F /* SFUIText-Light.ttf in Resources */,
+				7F64AC2EB3854405AF34DAF2 /* SFUIText-Medium.ttf in Resources */,
+				37FBBD89979D481A9941038D /* SFUIText-Regular.ttf in Resources */,
+				558025CA1F88420FBBD66EDB /* SFUIText-Semibold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export EXTRA_PACKAGER_ARGS=\"--sourcemap-output $TMPDIR/$(md5 -qs \"$CONFIGURATION_BUILD_DIR\")-main.jsbundle.map\"\nset -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		02D1397F80034C62AACFCBF4 /* Upload source maps to Bugsnag */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Upload source maps to Bugsnag";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SOURCE_MAP=\"$TMPDIR/$(md5 -qs \"$CONFIGURATION_BUILD_DIR\")-main.jsbundle.map\" ../node_modules/@bugsnag/react-native/bugsnag-react-native-xcode.sh\n";
+		};
+		2AC498BBD4373FC0E6A3E047 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EscobarCash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49AF22BFDEA40EEE6FC01EED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997EFD60A28444C12A6626C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2FE35285E0F2C7B941E8C82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EscobarCash-WATTWalletTests/Pods-EscobarCash-WATTWalletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56BFD9FA6E3C9288D031304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EscobarCash-WATTWalletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA68900C6760BC088517EB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EscobarCash/Pods-EscobarCash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* WATTWalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				CE8DEA0F26B7FF7F005345C5 /* File.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* EscobarCash */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC56E2AB86EAB2E99B6F041 /* Pods-EscobarCash-WATTWalletTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WATTWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.escobarinc.cash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EscobarCash.app/EscobarCash";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F8D9E410932C21DA9DE8EC /* Pods-EscobarCash-WATTWalletTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = WATTWalletTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.escobarinc.cash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EscobarCash.app/EscobarCash";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4457B569B5B3D6C405015E8B /* Pods-EscobarCash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = 357NW36NDH;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = EscobarCash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.escobarinc.cash;
+				PRODUCT_NAME = EscobarCash;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EscobarCash-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA7EC987DBD2DE642CE2F07A /* Pods-EscobarCash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = 357NW36NDH;
+				INFOPLIST_FILE = EscobarCash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.escobarinc.cash;
+				PRODUCT_NAME = EscobarCash;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EscobarCash-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WATTWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EscobarCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EscobarCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

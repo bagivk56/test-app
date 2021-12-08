@@ -1,0 +1,10 @@
+Подключить все настроки камера на IOS: https://react-native-camera.github.io/react-native-camera/docs/installation
+https://openbase.com/js/react-native-fingerprint-scanner
+
+
+
+При сборке приложения для IOS нужно:
+1) Открыть папке POST (в самом левом навигационном меню, синия папка Pods)
+2) Открыть папку "Development Pods"
+3) Найти папку "react-native-upd" и удалить папку "CocoaAsyncSocket"
+4) Найти папку "TcpSockets" и удалить папку "CocoaAsyncSocket"
