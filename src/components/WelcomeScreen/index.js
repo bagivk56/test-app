@@ -79,6 +79,9 @@ class WelcomeScreen extends React.PureComponent {
     const {
       onStart
     } = this.props;
+    const {
+      openModalLocale
+    } = this.state;
 
     return (
       <View style={styles.root}>
@@ -108,9 +111,9 @@ class WelcomeScreen extends React.PureComponent {
         </TouchableOpacity>
 
         <Button
-          label={allTranslations(localization.welcome.buttonStart)}
-          style={styles.button}
-          onPress={() => onStart(this.state.locale)}
+            label={allTranslations(localization.welcome.buttonStart)}
+            style={styles.button}
+            onPress={() => onStart(this.state.locale)}
         />
 
 

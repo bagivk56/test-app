@@ -28,7 +28,7 @@ class ImportWallet extends Component {
         super(props);
 
         this.state = {
-            seed: "shd6K3K1i73GvfTwmjPXMPuJtWP3N",
+            seed: "",
 
             isModalLoading: false
         };

@@ -1,12 +1,14 @@
 import { store } from "../store/store";
-import russian from "../assets/lang/ru-RU.json";
-import english from "../assets/lang/en-EN.json";
+import english from "../assets/lang/en-EN";
+import svenska from "../assets/lang/sv-SV";
+import espanol from "../assets/lang/es-ES";
+import russian from "../assets/lang/ru-RU";
 
 const dictionaries = {
   "ru-RU": russian,
   "en-EN": english,
-  "sv-SV": english,
-  "es-ES": english,
+  "sv-SV": svenska,
+  "es-ES": espanol,
 };
 
 const allTranslations = (key, props) => {

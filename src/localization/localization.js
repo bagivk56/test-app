@@ -2,213 +2,187 @@ export default {
 
   dashboard: {
     infoWallet: {
-      label: "Your account"
+      label: "dashboard.infoWallet.label"
     },
     buyEch: {
-      label: "Buy ECH online",
+      label: "dashboard.buyEch.label",
     },
     transactionHistory: {
-      title: "Transaction history",
+      title: "dashboard.transactionHistory.title",
     },
-
-
     errors: {
-      errorSendTransaction: "Error send transaction",
+      errorSendTransaction: "dashboard.errors.errorSendTransaction",
     },
     success: {
-      successSendTransaction: "Transaction was successfully sent",
+      successSendTransaction: "dashboard.success.successSendTransaction",
     }
   },
   transactionDetails: {
     header: {
-      title: "Transaction details",
-
-      payment: "Payment",
+      title: "transactionDetails.header.title",
+      payment: "transactionDetails.header.payment",
     },
     information: {
-      send: "AMOUNT",
-      destinationAccount: "destination account",
-      transactionConfirmation: "transaction confirmation",
-      ledgerIndex: "ledger index",
-      fromAccount: "from account",
-      sequenceNumber: "sequence number",
-      blockExplorer: "View in block explorer",
+      send: "transactionDetails.information.send",
+      destinationAccount: "transactionDetails.information.destinationAccount",
+      transactionConfirmation: "transactionDetails.information.transactionConfirmation",
+      ledgerIndex: "transactionDetails.information.ledgerIndex",
+      fromAccount: "transactionDetails.information.fromAccount",
+      sequenceNumber: "transactionDetails.information.sequenceNumber",
+      blockExplorer: "transactionDetails.information.blockExplorer",
     }
   },
   transferSend: {
     form: {
-      addressPlaceholder: "Wallet-address:",
-      amountPlaceholder: "Amount:",
-      buttonSend: "Send",
-
-      errorAddressEmpty: "Enter wallet address",
-      errorAddressNotValid: "Enter wallet address not valid",
-      errorAddressAmount: "Enter the amount to send",
-      errorAddressAmountBig: "The amount entered exceeds your balance",
+      addressPlaceholder: "transferSend.form.addressPlaceholder",
+      amountPlaceholder: "transferSend.form.amountPlaceholder",
+      buttonSend: "transferSend.form.buttonSend",
+      errorAddressEmpty: "transferSend.form.errorAddressEmpty",
+      errorAddressNotValid: "transferSend.form.errorAddressNotValid",
+      errorAddressAmount: "transferSend.form.errorAddressAmount",
+      errorAddressAmountBig: "transferSend.form.errorAddressAmountBig",
     },
-
     confirm: {
-      title: "Confirmation",
-      message: "Do you want to send {{amount}} ECH to: {{address}}",
+      title: "transferSend.confirm.title",
+      message: "transferSend.confirm.message",
     },
     error: {
-      insufficientFunds: "Insufficient funds to send (transfer amount + commission)"
+      insufficientFunds: "transferSend.error.insufficientFunds"
     }
   },
   receiveAmount: {
-    addressTitle: "My ECH deposit address",
-    addressValue: "rG1QQv2nh2gr7RCZ1P8YYcBUKCCN633jCn",
-
-    tapToCopy: "Tap to copy",
-    successCopyAddress: "Address copied to clipboard",
+    addressTitle: "receiveAmount.addressTitle",
+    addressValue: "receiveAmount.addressValue",
+    tapToCopy: "receiveAmount.tapToCopy",
+    successCopyAddress: "receiveAmount.successCopyAddress",
   },
   qrScan: {
-    walletAddressScanned: "Escobar Cash wallet scanned",
-    buttonSend: "Send ECH to this wallet",
-
-    errorScann: "Invalid address",
-    escobarCashNoteScanned: "Escobar Cash wallet scanned",
-
-    moveECHToWallet: "Move ECH to Wallet",
-    ok: "Ok",
-
+    walletAddressScanned: "qrScan.walletAddressScanned",
+    buttonSend: "qrScan.buttonSend",
+    errorScann: ".qrScanerrorScann",
+    escobarCashNoteScanned: "qrScan.escobarCashNoteScanned",
+    moveECHToWallet: "qrScan.moveECHToWallet",
+    ok: "qrScan.ok",
     scannedCash: {
-      messageConfirm: "Do you want to transfer {{balance}} ECH to your wallet?",
-
-      balance: "Balance:",
-      serial: "Serial:",
+      messageConfirm: "qrScan.scannedCash.messageConfirm",
+      balance: "qrScan.scannedCash.balance",
+      serial: "qrScan.scannedCash.serial"
     }
   },
   verify: {
-    title: "Enter note serial and secret words to Verify note validity",
-
-    noteSerial: "Note serial:",
-    secret1: "Secret 1:",
-    secret2: "Secret 2:",
-    secret3: "Secret 3:",
-
-    buttonSend: "Send",
-
-    errorValid: "Fill the form",
-
-    notValidCash1: "Your Escobar cash note is",
-    notValidCash2: "invalid!",
-    notValidCashCaption: "An invalid note can be caused if the balance is already sent to a wallet or if it is an inauthentic note.",
-
-    validCashCash1: "Your Escobar cash note is",
-    validCashCash2: "valid!",
-    validCashCaption: "To send or move balance to wallet you need to scan the QR code.",
-
-    buttonUpdate: "Enter again",
+    title: "verify.title",
+    noteSerial: "verify.noteSerial",
+    secret1: "verify.secret1",
+    secret2: "verify.secret2",
+    secret3: "verify.secret3",
+    buttonSend: "verify.buttonSend",
+    errorValid: "verify.errorValid",
+    notValidCash1: "verify.notValidCash1",
+    notValidCash2: "verify.notValidCash2",
+    notValidCashCaption: "verify.notValidCashCaption",
+    validCashCash1: "verify.validCashCash1",
+    validCashCash2: "verify.validCashCash2",
+    validCashCaption: "verify.validCashCaption",
+    buttonUpdate: "verify.buttonUpdate",
   },
   security: {
-    pinCode: "Pin code",
-    emailConfirmation: "Email confirmation",
-    exportWallet: "Export wallet",
-    importWallet: "Import wallet",
-
-    off: "off",
-    notDone: "not done",
-    notAvailable: "not available",
+    pinCode: "security.pinCode",
+    emailConfirmation: "security.emailConfirmation",
+    exportWallet: "security.exportWallet",
+    importWallet: "security.importWallet",
+    off: "security.off",
+    notDone: "security.notDone",
+    notAvailable: "security.notAvailable",
   },
   importWallet: {
-    title: "Import wallet",
-    message: "Importing a wallet will cause your current wallet to close, please be sure to backup your current wallet in the event you have a balance.",
-
-    secretKey: "Secret key:",
-
-    buttonConfirm: "Confirm",
-    buttonCancel: "Cancel",
-
+    title: "importWallet.title",
+    message: "importWallet.message",
+    secretKey: "importWallet.secretKey",
+    buttonConfirm: "importWallet.buttonConfirm",
+    buttonCancel: "importWallet.buttonCancel",
     errors: {
-      seedEmpty: "Enter secret key",
-      seedNotValid: "Entered incorrect secret key",
+      seedEmpty: "importWallet.errors.seedEmpty",
+      seedNotValid: "importWallet.errors.seedNotValid",
     },
     confirmImport: {
-      title: "Confirmation",
-      message: "The current opened wallet will be purged and only accessible if you have the secret key. Are you sure you want to import your new wallet?",
+      title: "importWallet.confirmImport.title",
+      message: "importWallet.confirmImport.message",
     },
     popUpInfo: {
-      title: "Notification",
-      message: "Wallet imported successfully",
+      title: "importWallet.popUpInfo.title",
+      message: "importWallet.popUpInfo.message",
     }
   },
   welcome: {
-    buttonStart: "START",
+    buttonStart: "welcome.buttonStart",
   },
   account: {
-    label: "Account",
-
-    accountId: "Account-id:"
+    label: "account.label",
+    accountId: "account.accountId"
   },
   exportWallet: {
-    label: "Export wallet",
-
-    buttonExportScreen: "Export wallet on screen",
-    successCopy: "Successfully copied",
-
+    label: "exportWallet.label",
+    buttonExportScreen: "exportWallet.buttonExportScreen",
+    successCopy: "exportWallet.successCopy",
     modal: {
-      secretKeyLabel: "Secret Key",
-      addressLabel: "Account-id",
+      secretKeyLabel: "exportWallet.modal.secretKeyLabel",
+      addressLabel: "exportWallet.modal.addressLabel",
     },
   },
   pinCode: {
-    label: "Pin code",
-    enterPin: "Enter pin",
-    enterPinRepeat: "Repeat enter pin",
+    label: "pinCode.label",
+    enterPin: "pinCode.enterPin",
+    enterPinRepeat: "pinCode.enterPinRepeat",
 
     confirmSetPassword: {
-      label: "Confirm",
-      message: "Are you sure you want to set a pin code?",
+      label: "pinCode.confirmSetPassword.label",
+      message: "pinCode.confirmSetPassword.message",
     },
     useFingerprintScanner: {
-      label: "Fingerprint Scanner",
-      message: "Would you like to use your fingerprint to unlock the app?",
-
-      title: "Authentication\nrequired",
-      cancelButton: "Cancel",
+      label: "pinCode.useFingerprintScanner.label",
+      message: "pinCode.useFingerprintScanner.message",
+      title: "pinCode.useFingerprintScanner.title",
+      cancelButton: "pinCode.useFingerprintScanner.cancelButton",
     },
     errors: {
-      passwordMismatch: "Password mismatch",
+      passwordMismatch: "pinCode.errors.passwordMismatch",
     },
     success: {
-      setupPinCode: "Password set successfully",
+      setupPinCode: "pinCode.success.setupPinCode",
     },
     successSetupPassword: {
-      title: "Notification",
-      message: "PIN code has been successfully installed",
+      title: "pinCode.successSetupPassword.title",
+      message: "pinCode.successSetupPassword.message",
     },
   },
   modalApplicationLock: {
-    title: "Enter pin code",
-
-    fingerprintScannerTitle: "Authentication\nrequired",
-    fingerprintScannerCancelButton: "PIN",
+    title: "modalApplicationLock.title",
+    fingerprintScannerTitle: "modalApplicationLock.fingerprintScannerTitle",
+    fingerprintScannerCancelButton: "modalApplicationLock.fingerprintScannerCancelButton",
   },
 
   header: {
-    account: "Account",
-    security: "Security",
-    preference: "Preferences",
-    support: "Support",
+    account: "header.account",
+    security: "header.security",
+    preference: "header.preference",
+    support: "header.support",
   },
   controls: {
-    send: "SEND",
-    receive: "RECEIVE",
-    scan: "SCAN",
-    verify: "VERIFY",
+    send: "controls.send",
+    receive: "controls.receive",
+    scan: "controls.scan",
+    verify: "controls.verify",
   },
   common: {
-    confirm: "Confirm",
-    cancel: "Cancel"
+    confirm: "common.confirm",
+    cancel: "common.cancel"
   },
   popUpInformation: {
-    close: "Close",
-    confirm: "Confirm",
+    close: "popUpInformation.close",
+    confirm: "popUpInformation.confirm",
   },
   locale: {
-
-    popUpLabel: "Choose language",
+    popUpLabel: "locale.popUpLabel",
   },
 
 }
