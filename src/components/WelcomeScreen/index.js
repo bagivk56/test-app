@@ -16,8 +16,19 @@ import {convertorNumber} from "../../helpers/convertor";
 import {Modalize as ModalizeRoot} from "react-native-modalize";
 import BlurView from "../BlurView";
 import Svg, {Path} from "react-native-svg";
+import russian from "../../assets/lang/ru-RU";
+import english from "../../assets/lang/en-EN";
+import svenska from "../../assets/lang/sv-SV";
+import espanol from "../../assets/lang/es-ES";
+
 
 const { width, height } = Dimensions.get("window");
+const dictionaries = {
+  "ru-RU": russian,
+  "en-EN": english,
+  "sv-SV": svenska,
+  "es-ES": espanol,
+};
 
 class WelcomeScreen extends React.PureComponent {
   constructor(props) {
@@ -75,6 +86,13 @@ class WelcomeScreen extends React.PureComponent {
     )
   }
 
+
+  _buttonLabelStart = () => {
+    const language = dictionaries[this.state.locale];
+
+    return language?.welcome?.buttonStart || "START"
+  }
+
   render() {
     const {
       onStart
@@ -111,7 +129,7 @@ class WelcomeScreen extends React.PureComponent {
         </TouchableOpacity>
 
         <Button
-            label={allTranslations(localization.welcome.buttonStart)}
+            label={this._buttonLabelStart()}
             style={styles.button}
             onPress={() => onStart(this.state.locale)}
         />
