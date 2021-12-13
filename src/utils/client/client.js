@@ -53,7 +53,7 @@ const createTransaction = async ({ address, amount, walletInit }) => {
   const walletFund = Wallet.fromSeed(wallet.seed);
 
 
-  let amountSend = amount;
+  let amountSend = (amount || 0) * 1000000;
 
   const tx = {
     Account: walletFund.address,
