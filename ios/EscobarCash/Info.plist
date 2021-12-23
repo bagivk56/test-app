@@ -70,8 +70,6 @@
 	<string></string>
 	<key>NSMainStoryboardFile</key>
 	<string>LaunchScreen</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Used to scan QR code</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Used to scan QR code</string>
 	<key>NSPhotoLibraryUsageDescription</key>
