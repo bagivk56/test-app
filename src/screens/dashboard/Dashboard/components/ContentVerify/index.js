@@ -39,7 +39,7 @@ const ContentVerify = (props) => {
 
         setModalLoading(true);
 
-        const response = await axios.get(`https://e2.pabloescobar.com/verify.php?serial=${serial}&s1=${s1}&s2=${s2}&s3=${s3}`).then((res) => {
+        const response = await axios.get(`https://pabloescobar.com/verify/verify.php?serial=${serial}&s1=${s1}&s2=${s2}&s3=${s3}`).then((res) => {
             return res.data
         }).catch((err) => {
             return {error: err.response}

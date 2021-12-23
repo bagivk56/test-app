@@ -31,12 +31,13 @@ const getTransactionList = async ({ address }) => {
     "ledger_index_min": -1,
     "ledger_index_max": -1,
     "binary": false,
-    "limit": 50,
+    "limit": 100,
     "forward": false
   });
 
   const transactionList = (transactionListInit?.result?.transactions || [])
-    .map((item) => {
+      .filter((t) => t?.meta?.TransactionResult === "tesSUCCESS")
+      .map((item) => {
     return {
       ...item?.tx
     }
