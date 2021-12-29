@@ -80,6 +80,7 @@ class ModalCamera extends React.PureComponent {
             ref={this.refCamera}
             style={styles.camera}
             type={RNCamera.Constants.Type.back}
+            captureAudio={false}
             flashMode={RNCamera.Constants.FlashMode[flashMode]}
             onBarCodeRead={onBarCodeRead}
           />
